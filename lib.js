@@ -1,5 +1,3 @@
-import { clamp } from '../helpers.js'
-
 /**
  * Create a DataView object from the ArrayBuffer and write the Waveform Audio file's header data to the DataView object.
  * We use the setUint method of the DataView object to write the values for the header data and audio data to the buffer
